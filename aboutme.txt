@@ -1,0 +1,28 @@
+Steps
+
+1.  npm init -y -- tocreate package.json
+
+2, install the depedencies
+		
+	a.		npm i -S react react-dom
+
+			** i -- install
+			** -S save
+			** react ,react-dom packages
+
+	b. # install Dev Dependencies.
+			npm i -D babel-core babel-loader babel-preset-es2015 babel-preset-react react-hot-loader webpack webpack-dev-server
+
+	c. # install webpack globally
+			npm i -g webpack webpack-dev-server
+
+3. configure your webpack.config.js
+			touch webpack.config.js
+
+4. Create the index.html file 
+			touch index.html
+5. Create src Folder and index.js inside it
+		
+			touch src/inmdex.js
+6. create a folder called component where all our react components will live.
+7.Create a file app.js under componewnt folder.
